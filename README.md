@@ -42,7 +42,6 @@ togetherControl = DisnakeTogether(client)
 
 @client.command()
 async def youtubeTogether(ctx):
-        togetherControl = DiscordTogether(client)
         # To check if the user is in a vc
         try:
             vc = ctx.author.voice.channel.id
