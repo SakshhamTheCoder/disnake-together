@@ -35,10 +35,10 @@ Generate a link for YouTube Together
 
 ```py
 from disnake.ext import commands
-from disnake_together import DisnakeTogether
+from disnake_together import disnakeTogether
 
 client = commands.Bot(command_prefix="*")
-togetherControl = DisnakeTogether(client)
+togetherControl = disnakeTogether.DisnakeTogether(client)
 
 @client.command()
 async def youtubeTogether(ctx):
