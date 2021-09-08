@@ -13,6 +13,13 @@ A 3rd party library for Discord's BETA feature of VC Party Games
 <br>
 
 
+### Installation
+Install the library using
+```py
+pip install disnake-together
+```
+
+
 ### Prerequisites
 
 You should have disnake installed in order to use this package
