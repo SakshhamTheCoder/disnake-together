@@ -4,8 +4,6 @@ classifiers = [
     'Development Status :: 5 - Production/Stable',
     'Intended Audience :: Developers',
     'Operating System :: OS Independent',
-    'Programming Language :: Python :: 3.6',
-    'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
     'Natural Language :: English',
@@ -18,16 +16,17 @@ classifiers = [
 ]
 
 setup(
-    name = 'disnake-together',
-    version = '1.0.0',
-    description = "A 3rd party solution to use discord's VC Party Games feature with disnake",
-    long_description = open('README.txt').read() + '\n\n' + open('CHANGELOG.txt').read(),
-    url = '',
-    author = 'Joshua Lowe',
-    author_email = 'josh@edublocks.org',
+    name = 'disnakeTogether',
+    version = '1.0.2',
+    description = "A 3rd party library to use discord's VC Party Games feature with disnake",
+    long_description = "A 3rd party library to use discord's VC Party Games feature i.e YouTube together, "
+                       "Betrayal.io, Fishington.io, Chess in the park, Poker night",
+    url = 'https://github.com/awesomehet2124/disnake-together',
+    author = 'Het Naik',
+    author_email = 'awesomehet@gmail.com',
     license = 'MIT',
     classifiers = classifiers,
-    keywords = 'calculator',
+    keywords = ['disnake-together', 'disnake', 'disnake-vc-interactions'],
     packages = find_packages(),
-    install_requires = ['']
+    install_requires = ['aiohttp']
 )
